@@ -15,3 +15,8 @@ Free evaluation projects and browser experiments. Code and documentation are AI-
 Start with the included synthetic examples. Read each project's requirements and limits before using real files. Keep private documents, catalogs, credentials and customer information out of public feedback. Optional feedback links live in each project's README or product page; no feedback or account is required to run the downloaded tools or play the games.
 
 Licensing differs by project. RecallKit 0.1.1 is MIT-licensed; the other listed prototypes are available for personal/local evaluation without an open-source or redistribution license grant. Public source visibility is not permission to redistribute or resell.
+
+
+## Commercial research sample
+
+[London office-cleaning offers: three-provider comparison](https://github.com/CinEmin/CinEmin/blob/main/research/london-office-cleaning-offers.md) — a free, dated, AI-assisted brief comparing scope, advertised pricing, minimum commitments and quote processes. Includes sources, contrary evidence and limitations. Supplier claims are not independently verified service-quality findings. No custom research orders are currently accepted.
