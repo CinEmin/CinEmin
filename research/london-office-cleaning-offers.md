@@ -33,3 +33,5 @@ Prepare one proposed schedule for a small office with explicit areas, visit leng
 Convenience sample selected for contrasting published offer terms, not market share. No contact forms submitted, quotes requested, customer records accessed, accreditation independently checked or supplier service purchased. Prices are advertised starting/indicative figures, not current binding quotes. This is an offer-positioning brief, not procurement, legal, accounting or operational certification. Prepared with AI and source checking; no claim of field interviews or hands-on cleaning expertise.
 
 Public reading sample only; no custom research service is currently offered. No affiliation with the businesses compared.
+
+[Download the printable two-page PDF](london-office-cleaning-offers.pdf?raw=1). Selectable text and source links; not a tagged PDF/UA document.
