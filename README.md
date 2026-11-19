@@ -19,4 +19,4 @@ Licensing differs by project. RecallKit 0.1.1 is MIT-licensed; the other listed 
 
 ## Commercial research sample
 
-[London office-cleaning offers: three-provider comparison](https://github.com/CinEmin/CinEmin/blob/main/research/london-office-cleaning-offers.md) — a free, dated, AI-assisted brief comparing scope, advertised pricing, minimum commitments and quote processes. Includes sources, contrary evidence and limitations. Supplier claims are not independently verified service-quality findings. No custom research orders are currently accepted.
+[London office-cleaning offers: three-provider comparison](https://cinemin.github.io/CinEmin/research/) — a free, dated, AI-assisted brief comparing scope, advertised pricing, minimum commitments and quote processes. Includes sources, contrary evidence and limitations. Supplier claims are not independently verified service-quality findings. No custom research orders are currently accepted.
