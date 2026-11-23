@@ -1,0 +1,84 @@
+FIRST SAFE STEP: CHECK A COPY BEFORE YOU ORGANIZE
+Local draft, 23 November 2026. Technical exercise checked; not reader-tested.
+
+WINDOWS PRACTICE ONLY
+Extract the ZIP first using File Explorer > Extract All. Do not run commands
+inside the ZIP preview. This lesson uses text placeholders, not photographs.
+No installation, administrator permission or script execution change is needed.
+
+Your goal for this session
+Check that one copied file contains the same bytes as its source. Do not rename,
+move, deduplicate or delete originals. Work with the supplied pretend files first.
+
+1. Know what you have
+Write down where your photos currently live: phone, computer, card, cloud account.
+An online preview may not be an original file downloaded to this computer.
+Pause if you cannot identify the source file. Do not sign out or clear storage.
+
+2. Use the prepared practice copies
+The practice folder already contains source.txt, copy.txt and changed-copy.txt.
+Leave all three in place. Open copy.txt in Notepad to see the pretend content.
+These files are on the same drive: they are practice, not protection against
+drive failure. A separate external drive, disconnected after a verified copy,
+is one example of an independent copy. This lesson does not create that backup.
+
+3. Compare one file in Windows PowerShell
+In File Explorer, open the extracted folder containing first-safe-step.txt.
+Click the address bar, type powershell, and press Enter.
+Paste each complete command below and press Enter.
+If either of these first two commands reports a missing path, check that you
+opened PowerShell in the extracted lesson folder, not its parent folder.
+Run:
+Get-FileHash -Algorithm SHA256 -LiteralPath './practice/source.txt' | Format-List Algorithm, Hash, Path
+Get-FileHash -Algorithm SHA256 -LiteralPath './practice/copy.txt' | Format-List Algorithm, Hash, Path
+
+Compare the complete Hash values. Matching SHA256 values provide strong evidence
+that these two files contain identical bytes at this moment. They do not prove
+that the source photo is undamaged, that it displays correctly, or that other
+files were copied. They do not verify permissions or filesystem timestamps.
+
+4. Recognize a mismatch
+Run this full command:
+Get-FileHash -Algorithm SHA256 -LiteralPath './practice/changed-copy.txt' | Format-List Algorithm, Hash, Path
+Its hash differs from source.txt.
+Stop organizing that file. Preserve both versions; check the source and copy
+operation. A mismatch alone cannot tell you which version is correct.
+
+5. Recognize a missing file
+Run this full command:
+Get-FileHash -Algorithm SHA256 -LiteralPath './practice/missing-copy.txt' | Format-List Algorithm, Hash, Path
+Expect a file-not-found error, not a successful
+verification. This practice file is deliberately absent; do not create it.
+In a real-photo workflow, investigate a missing copy before treating it as copied.
+
+6. Your written receipt
+Source path: __________  Destination path: __________  Date: __________
+Complete hashes match? yes / no / not checked
+Can Notepad open the practice copy.txt? yes / no / not checked
+For a later real-photo workflow, opening an image in a photo viewer is a
+separate check; this text exercise does not establish that.
+Other files checked? __________  Independent backup available? __________
+
+What you have NOT established
+This exercise is not a whole-library audit, duplicate detector or backup system.
+A synchronized cloud library can replicate deletions. Do not delete originals
+because one checksum matched. Test recovery from an independent backup before
+considering cleanup; keep this session limited to checking the prepared practice files.
+
+Keep the receipt locally. Do not upload photographs or paste personal file
+paths into chats or public forms. Remove names and identifying folder names
+before asking for help. Do not apply these relative practice paths to your
+photo library: a real-photo workflow is outside this lesson.
+
+SELF-CHECK (answers below)
+A. Which prepared copy matches source.txt?
+B. Does a matching hash prove that every photo is backed up?
+C. If the missing-file command errors, has that copy been verified?
+Answers: A copy.txt. B No. C No.
+
+NEXT READER TEST
+Can a beginner identify the matching, changed and missing cases and explain why
+a matching file is not a complete backup? No reader has yet completed this test.
+The sample is original AI-generated project work; no competing book text is copied.
+
+Command reference: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash
