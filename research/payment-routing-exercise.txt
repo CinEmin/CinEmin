@@ -1,0 +1,56 @@
+WHERE DID THE SALE MONEY GO?
+A short payment-routing exercise for digital creators
+Original AI-assisted educational specimen | 24 November 2026
+
+A sales total is not the same number as an unpaid platform balance. Before
+adding numbers, label where the money went. This fictional example uses one
+currency (USD). Fees are invented amounts, not a provider fee schedule.
+Opening balances are zero. There are no taxes, refunds, holds, foreign-exchange
+adjustments or other transactions in this example.
+
+CASE
+A: Customers pay USD120. The platform deducts USD24. The remaining money stays
+   in the platform account. No transfer to a bank has occurred.
+B: Another customer pays USD15. USD3 is deducted. The remaining money goes
+   directly to the creator's separate payment account, not the platform balance.
+C: A later customer pays USD10. USD2 is deducted. The remaining money stays
+   in the platform account. Again, no bank transfer has occurred.
+
+TRY IT BEFORE READING THE ANSWER
+1. After A and B, what is the gross sales total?
+2. After A and B, how much remains in the platform account?
+3. After A and B, how much has reached the separate payment account?
+4. After C, what is the platform balance?
+5. If the platform has a hypothetical USD100 minimum, can you conclude that
+   money will reach the bank tomorrow? Why or why not?
+
+ANSWER
+After A and B: gross sales are USD135; deductions are USD27. Of the remaining
+USD108, USD96 stays with the platform and USD12 is in the separate account.
+Do not add that USD12 to the platform balance: it has already taken another
+route. After C, the platform balance is USD104 (96 + 8). Across all three sales,
+USD145 gross minus USD29 deductions equals USD116: USD104 at the platform plus
+USD12 at the separate account. These are locations of funds, not business profit.
+A USD104 balance above an assumed minimum does not establish an eligible payout,
+a scheduled transfer or a bank receipt. In real accounts, review, holds, payment settings and
+processing can matter. The example proves arithmetic only, not an account status.
+
+USE THE DISTINCTION ON YOUR OWN RECORDS
+Keep actual records private. For each relevant transaction, note its date and
+time zone, currency, identifier, gross amount, documented deductions, net amount
+and settlement destination. Mark an unknown destination UNKNOWN; do not guess.
+Use the same reporting period when comparing reports. Track each currency
+separately. Record actual refunds and adjustments from statements rather than
+assuming the original fee was returned. A sale appearing in two reports is still
+one sale. Confirm a bank receipt in the bank record; a platform status is separate.
+This is not a tax, bookkeeping-compliance or account-recovery service.
+
+SOURCES AND LIMITS
+Gumroad's payout documentation explains separately routed connected-PayPal sales
+and the UTC/account-time-zone difference. Applicability depends on the account:
+https://gumroad.com/help/article/269-balance-page
+Review and payout prerequisites are explained here:
+https://gumroad.com/help/article/281-payout-delays
+No PayPal availability, payout minimum or payment method is asserted for Turkey
+or for your account. Do not create transactions merely to reach a threshold.
+No customer has tested this exercise. No paid service or support is offered.
